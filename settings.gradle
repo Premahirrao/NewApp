@@ -1,17 +1,2 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal() // Important for latest plugins
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-// ... other settings ...
-include ':app' // Include your modules
-rootProject.name = "YourProjectName"
+rootProject.name='MVVMNewsApp'
+include ':app'
